@@ -144,7 +144,7 @@ export const categories: ServiceCategory[] = [
       },
       {
         name: 'Grafana',
-        description: 'Dashboard Metrik API BPJS',
+        description: 'Dashboard Metrics API BPJS',
         url: 'http://192.168.12.24:3000/d/bpjs-monitoring-v4/monitoring-api-bpjs?kiosk',
         host: 'http://grafana.lan',
         icon: LineChart,
@@ -191,7 +191,7 @@ export const categories: ServiceCategory[] = [
       },
       {
         name: 'Komodo',
-        description: 'Deploy Manage Containers and Compose Stacks',
+        description: 'Deploy Manage Containers & Compose Stacks',
         url: 'http://192.168.12.5:9120',
         host: 'http://komodo.lan',
         icon: Server,
