@@ -30,6 +30,7 @@ import {
   Container,
   ShieldCheck,
   Server,
+  Activity,
 } from 'lucide-react';
 
 export type ServiceStatus = 'online' | 'maintenance' | 'offline';
@@ -138,7 +139,7 @@ export const categories: ServiceCategory[] = [
         description: 'Enterprise-Class Network & Server Monitoring',
         url: 'http://192.168.12.24/zabbix',
         host: 'http://zabbix.lan',
-        icon: LineChart,
+        icon: Activity,
         status: 'online',
       },
       {
