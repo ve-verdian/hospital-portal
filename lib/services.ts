@@ -161,7 +161,7 @@ export const categories: ServiceCategory[] = [
       {
         name: 'Uptime Kuma',
         description: 'Status Uptime Seluruh Service',
-        url: 'http://192.168.12.5:3001',
+        url: 'http://192.168.12.5:3001/status/server-monitoring',
         host: 'http://kuma.lan',
         icon: HeartPulse,
         status: 'online',
