@@ -43,11 +43,11 @@ export default function Header() {
         <div className="flex flex-wrap items-start justify-between gap-6">
           <div className="flex items-start gap-4">
             <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-white font-display text-sm font-bold text-brawijaya-purple shadow-card">
-              RSB
+              BHT
             </div>
             <div>
               <h1 className="font-display text-2xl font-semibold text-white sm:text-3xl">
-                RS Brawijaya Tangerang
+                Brawijaya Hospital Tangerang
               </h1>
               <p className="mt-1 text-sm text-white/85">
                 Portal Layanan Internal — akses cepat tanpa perlu hafal alamat IP

@@ -144,7 +144,7 @@ export const categories: ServiceCategory[] = [
       {
         name: 'Prometheus',
         description: 'Time-series metrics store',
-        url: 'http://192.168.12.29:9090',
+        url: 'http://192.168.12.24:9090/service-discovery',
         host: 'prometheus.rs.lan',
         icon: Flame,
         status: 'online',
@@ -175,7 +175,7 @@ export const categories: ServiceCategory[] = [
       {
         name: 'Traefik',
         description: 'Dashboard reverse proxy',
-        url: 'https://auth.rs.lan',
+        url: 'https://traefik.rs.lan',
         host: 'traefik.rs.lan',
         icon: ShieldCheck,
         status: 'online',
