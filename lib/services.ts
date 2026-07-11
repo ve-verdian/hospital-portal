@@ -106,7 +106,7 @@ export const categories: ServiceCategory[] = [
         name: 'HIS',
         description: 'Sistem informasi rumah sakit (teraMedik)',
         url: 'http://192.168.105.2',
-       // host: 'http://teramedik.lan',
+        host: 'http://teramedik.lan',
         icon: ClipboardList,
         status: 'online',
       },
