@@ -59,7 +59,7 @@ export const categories: ServiceCategory[] = [
     items: [
       {
         name: 'Nextcloud',
-        description: 'Penyimpanan & berbagi dokumen antar unit',
+        description: 'Penyimpanan & Berbagi Dokumen Antar Unit',
         url: 'http://192.168.12.29:8081',
         host: 'http://nextcloud.lan',
         icon: Cloud,
@@ -67,7 +67,7 @@ export const categories: ServiceCategory[] = [
       },
       {
         name: 'Seafile',
-        description: 'Sinkronisasi file tim & versi dokumen',
+        description: 'Sinkronisasi File Tim & Versi Dokumen',
         url: 'http://192.168.12.6:8080',
         host: 'http://seafile.lan',
         icon: HardDrive,
@@ -82,7 +82,7 @@ export const categories: ServiceCategory[] = [
     items: [
       {
         name: 'GLPI',
-        description: 'Tiket bantuan & inventaris aset IT',
+        description: 'Tiket Bantuan & Inventaris Aset IT',
         url: 'http://192.168.12.6',
         host: 'http://glpi.lan',
         icon: Ticket,
@@ -90,7 +90,7 @@ export const categories: ServiceCategory[] = [
       },
       {
         name: 'HESK',
-        description: 'Helpdesk pengaduan pengguna',
+        description: 'Helpdesk Pengaduan Pengguna',
         url: 'http://192.168.12.29',
         host: 'http://hesk.lan',
         icon: LifeBuoy,
@@ -105,7 +105,7 @@ export const categories: ServiceCategory[] = [
     items: [
       {
         name: 'HIS',
-        description: 'Sistem informasi rumah sakit (teraMedik)',
+        description: 'Hospital Information System (teraMedik)',
         url: 'http://192.168.105.2',
         host: 'http://teramedik.lan',
         icon: ClipboardList,
@@ -113,7 +113,7 @@ export const categories: ServiceCategory[] = [
       },
       {
         name: 'PACS',
-        description: 'Arsip & viewer citra radiologi (DICOM)',
+        description: 'Arsip & Viewer Citra Radiologi (DICOM)',
         url: 'http://192.168.105.8:8042',
         host: 'https://orthanc.rs.lan',
         icon: ScanLine,
@@ -121,7 +121,7 @@ export const categories: ServiceCategory[] = [
       },
       {
         name: 'DCM Router',
-        description: 'Monitoring dicom router status',
+        description: 'Monitoring Dicom Router Status',
         url: 'http://192.168.105.8:8080/dashboard',
         host: 'http://dcmrouter.lan',
         icon: Printer,
@@ -144,7 +144,7 @@ export const categories: ServiceCategory[] = [
       },
       {
         name: 'Grafana',
-        description: 'Dashboard metrik api BPJS',
+        description: 'Dashboard Metrik API BPJS',
         url: 'http://192.168.12.24:3000/d/bpjs-monitoring-v4/monitoring-api-bpjs?kiosk',
         host: 'http://grafana.lan',
         icon: LineChart,
@@ -152,7 +152,7 @@ export const categories: ServiceCategory[] = [
       },
       {
         name: 'Prometheus',
-        description: 'Time-series metrics store',
+        description: 'Time-Series Metrics Store',
         url: 'http://192.168.12.24:9090/service-discovery',
         host: 'http://prometheus.lan',
         icon: Flame,
@@ -160,7 +160,7 @@ export const categories: ServiceCategory[] = [
       },
       {
         name: 'Uptime Kuma',
-        description: 'Status uptime seluruh service',
+        description: 'Status Uptime Seluruh Service',
         url: 'http://192.168.12.5:3001',
         host: 'http://kuma.lan',
         icon: HeartPulse,
@@ -175,7 +175,7 @@ export const categories: ServiceCategory[] = [
     items: [
       {
         name: 'Portainer',
-        description: 'Manajemen container Docker',
+        description: 'Manajemen Container Docker',
         url: 'http://192.168.12.5:9000',
         host: 'http://portainer.lan',
         icon: Container,
@@ -183,7 +183,7 @@ export const categories: ServiceCategory[] = [
       },
       {
         name: 'Traefik',
-        description: 'Dashboard reverse proxy',
+        description: 'Dashboard Reverse Proxy',
         url: 'https://traefik.rs.lan',
         host: 'https://traefik.rs.lan',
         icon: ShieldCheck,
