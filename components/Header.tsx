@@ -16,24 +16,24 @@ function useJakartaClock() {
 }
 
 export default function Header() {
-  const now = useJakartaClock();
+  // const now = useJakartaClock();
 
-  const timeLabel = now
-    ? new Intl.DateTimeFormat('id-ID', {
-        timeZone: 'Asia/Jakarta',
-        hour: '2-digit',
-        minute: '2-digit',
-      }).format(now)
-    : '--:--';
+  // const timeLabel = now
+  //   ? new Intl.DateTimeFormat('id-ID', {
+  //       timeZone: 'Asia/Jakarta',
+  //       hour: '2-digit',
+  //       minute: '2-digit',
+  //     }).format(now)
+  //   : '--:--';
 
-  const dateLabel = now
-    ? new Intl.DateTimeFormat('id-ID', {
-        timeZone: 'Asia/Jakarta',
-        weekday: 'long',
-        day: 'numeric',
-        month: 'long',
-      }).format(now)
-    : '';
+  // const dateLabel = now
+  //   ? new Intl.DateTimeFormat('id-ID', {
+  //       timeZone: 'Asia/Jakarta',
+  //       weekday: 'long',
+  //       day: 'numeric',
+  //       month: 'long',
+  //     }).format(now)
+  //   : '';
 
   return (
     <header className="relative overflow-hidden bg-brawijaya-gradient">
@@ -56,7 +56,7 @@ export default function Header() {
           </div>
 
           <div className="flex flex-col items-end gap-2 font-mono text-xs text-white/90">
-            <span className="capitalize">{dateLabel ? `${dateLabel} · ` : ''}{timeLabel} WIB</span>
+            {/* <span className="capitalize">{dateLabel ? `${dateLabel} · ` : ''}{timeLabel} WIB</span> */}
             <span className="inline-flex items-center gap-1.5 rounded-full border border-white/25 bg-white/15 px-2.5 py-1 text-[11px] backdrop-blur-sm">
               <Wifi size={12} className="text-white" />
               Perlu jaringan internal / VPN

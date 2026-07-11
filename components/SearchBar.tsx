@@ -31,7 +31,7 @@ export default function SearchBar({
 
   return (
     <div className="relative">
-      <Search size={16} className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-muted" />
+      {/* <Search size={16} className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-muted" />
       <input
         ref={inputRef}
         type="text"
@@ -42,7 +42,7 @@ export default function SearchBar({
       />
       <kbd className="pointer-events-none absolute right-3.5 top-1/2 -translate-y-1/2 rounded border border-line bg-canvas px-1.5 py-0.5 font-mono text-[10px] text-muted">
         /
-      </kbd>
+      </kbd> */}
     </div>
   );
 }
