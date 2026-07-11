@@ -134,6 +134,14 @@ export const categories: ServiceCategory[] = [
     accent: 'purple',
     items: [
       {
+        name: 'Zabbix',
+        description: 'Enterprise-Class Network & Server Monitoring',
+        url: 'http://192.168.12.24/zabbix',
+        host: 'http://zabbix.lan',
+        icon: LineChart,
+        status: 'online',
+      },
+      {
         name: 'Grafana',
         description: 'Dashboard metrik api BPJS',
         url: 'http://192.168.12.24:3000/d/bpjs-monitoring-v4/monitoring-api-bpjs?kiosk',
