@@ -143,19 +143,19 @@ export const categories: ServiceCategory[] = [
         status: 'online',
       },
       {
-        name: 'Grafana',
-        description: 'Dashboard Metrics API BPJS',
-        url: 'http://192.168.12.24:3000/d/bpjs-monitoring-v4/monitoring-api-bpjs?kiosk',
-        host: 'http://grafana.lan',
-        icon: LineChart,
-        status: 'online',
-      },
-      {
         name: 'Prometheus',
         description: 'Time-Series Metrics Store',
         url: 'http://192.168.12.24:9090/service-discovery',
         host: 'http://prometheus.lan',
         icon: Flame,
+        status: 'online',
+      },
+      {
+        name: 'Grafana',
+        description: 'Dashboard Metrics API BPJS',
+        url: 'http://192.168.12.24:3000/d/bpjs-monitoring-v4/monitoring-api-bpjs?kiosk',
+        host: 'http://grafana.lan',
+        icon: LineChart,
         status: 'online',
       },
       {
@@ -182,19 +182,19 @@ export const categories: ServiceCategory[] = [
     accent: 'pink',
     items: [
       {
-        name: 'Portainer',
-        description: 'Manajemen Container Docker',
-        url: 'http://192.168.12.5:9000',
-        host: 'http://portainer.lan',
-        icon: Container,
-        status: 'online',
-      },
-      {
         name: 'Traefik',
         description: 'Dashboard Reverse Proxy',
         url: 'https://traefik.rs.lan',
         host: 'https://traefik.rs.lan',
         icon: ShieldCheck,
+        status: 'online',
+      },
+      {
+        name: 'Portainer',
+        description: 'Manajemen Container Docker',
+        url: 'http://192.168.12.5:9000',
+        host: 'http://portainer.lan',
+        icon: Container,
         status: 'online',
       },
       {
