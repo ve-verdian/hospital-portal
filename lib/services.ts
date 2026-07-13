@@ -190,4 +190,35 @@ export const categories: ServiceCategory[] = [
       },
     ],
   },
+  {
+    id: 'proxmox',
+    label: 'Proxmox VE',
+    accent: 'pink',
+    items: [
+      {
+        name: 'SRV-PVE',
+        description: 'Proxmox Virtual Environment Dashboard',
+        url: 'https://192.168.12.16:8006/#v1:0:18:4:::::::',
+        host: 'https://srv-pve.lan',
+        icon: Server,
+        status: 'online',
+      },
+      {
+        name: 'SRV-BHT-PVE',
+        description: 'Proxmox Virtual Environment Dashboard',
+        url: 'https://192.168.12.10:8006/#v1:0:18:4:::::::',
+        host: 'https://srv-bht-pve.lan',
+        icon: Server,
+        status: 'online',
+      },
+      {
+        name: 'SRV-PVE-NEW',
+        description: 'Proxmox Virtual Environment Dashboard',
+        url: 'https://192.168.105.4:8006/#v1:0:18:4:::::::',
+        host: 'https://srv-pve-new.lan',
+        icon: Server,
+        status: 'online',
+      },
+    ],
+  },
 ];
