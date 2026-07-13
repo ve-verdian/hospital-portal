@@ -151,9 +151,17 @@ export const categories: ServiceCategory[] = [
         status: 'online',
       },
       {
-        name: 'Grafana',
+        name: 'Grafana - Ubuntu',
         description: 'Dashboard Metrics API BPJS',
         url: 'http://192.168.12.24:3000/d/bpjs-monitoring-v4/monitoring-api-bpjs?kiosk',
+        host: 'http://grafana.lan',
+        icon: LineChart,
+        status: 'online',
+      },
+      {
+        name: 'Grafana - Debian',
+        description: 'Dashboard Metrics & Visualisasi Data',
+        url: 'http://192.168.12.29:3000/',
         host: 'http://grafana.lan',
         icon: LineChart,
         status: 'online',
