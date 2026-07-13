@@ -31,6 +31,7 @@ import {
   ShieldCheck,
   Server,
   Activity,
+  DoorOpen,
 } from 'lucide-react';
 
 export type ServiceStatus = 'online' | 'maintenance' | 'offline';
@@ -145,23 +146,23 @@ export const categories: ServiceCategory[] = [
       {
         name: 'Prometheus',
         description: 'Time-Series Metrics Store',
-        url: 'http://192.168.12.24:9090/service-discovery',
+        url: 'http://prometheus.lan/service-discovery',
         host: 'http://prometheus.lan',
         icon: Flame,
         status: 'online',
       },
       {
-        name: 'Grafana - Ubuntu',
+        name: 'Grafana Docker',
         description: 'Dashboard Metrics API BPJS',
         url: 'http://192.168.12.24:3000/d/bpjs-monitoring-v4/monitoring-api-bpjs?kiosk',
-        host: 'http://grafana.lan',
+        host: 'http://new-grafana.lan',
         icon: LineChart,
         status: 'online',
       },
       {
-        name: 'Grafana - Debian',
+        name: 'Grafana non-Docker',
         description: 'Dashboard Metrics & Visualisasi Data',
-        url: 'http://192.168.12.29:3000/',
+        url: 'http://192.168.12.29:3000',
         host: 'http://grafana.lan',
         icon: LineChart,
         status: 'online',
@@ -200,7 +201,7 @@ export const categories: ServiceCategory[] = [
       {
         name: 'Portainer',
         description: 'Manajemen Container Docker',
-        url: 'http://192.168.12.5:9000',
+        url: 'http://portainer.lan',
         host: 'http://portainer.lan',
         icon: Container,
         status: 'online',
@@ -213,6 +214,14 @@ export const categories: ServiceCategory[] = [
         icon: Server,
         status: 'online',
       },
+      {
+        name: 'HikCentral AC',
+        description: 'Management System for Hikvision Access Control',
+        url: 'https://192.168.12.12:4433',
+        host: 'https://192.168.12.12:4433',
+        icon: DoorOpen,
+        status: 'online',
+      },
     ],
   },
   {
@@ -223,7 +232,7 @@ export const categories: ServiceCategory[] = [
       {
         name: 'SRV-PVE',
         description: 'Proxmox Virtual Environment Dashboard',
-        url: 'https://192.168.12.16:8006/#v1:0:18:4:::::::',
+        url: 'https://srv-pve.lan/#v1:0:18:4:::::::',
         host: 'https://srv-pve.lan',
         icon: Server,
         status: 'online',
@@ -231,7 +240,7 @@ export const categories: ServiceCategory[] = [
       {
         name: 'SRV-BHT-PVE',
         description: 'Proxmox Virtual Environment Dashboard',
-        url: 'https://192.168.12.10:8006/#v1:0:18:4:::::::',
+        url: 'https://srv-bht-pve.lan/#v1:0:18:4:::::::',
         host: 'https://srv-bht-pve.lan',
         icon: Server,
         status: 'online',
@@ -239,7 +248,7 @@ export const categories: ServiceCategory[] = [
       {
         name: 'SRV-PVE-NEW',
         description: 'Proxmox Virtual Environment Dashboard',
-        url: 'https://192.168.105.4:8006/#v1:0:18:4:::::::',
+        url: 'https://srv-pve-new.lan/#v1:0:18:4:::::::',
         host: 'https://srv-pve-new.lan',
         icon: Server,
         status: 'online',
