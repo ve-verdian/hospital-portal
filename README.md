@@ -1,4 +1,4 @@
-# Portal Layanan Internal — RS Brawijaya Tangerang
+# Portal Layanan Internal
 
 Static site (Next.js, `output: 'export'`) yang menampilkan direktori layanan
 internal (Nextcloud, Seafile, GLPI, HESK, PACS, HIS, Grafana, Prometheus,

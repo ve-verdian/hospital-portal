@@ -50,7 +50,7 @@ export default function Header() {
                 Brawijaya Hospital Tangerang
               </h1>
               <p className="mt-1 text-sm text-white/85">
-                Portal Layanan Internal — akses cepat tanpa perlu hafal alamat IP
+                Portal Layanan Internal — Akses Cepat Tanpa Perlu Hafal Alamat IP
               </p>
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function Header() {
             {/* <span className="capitalize">{dateLabel ? `${dateLabel} · ` : ''}{timeLabel} WIB</span> */}
             <span className="inline-flex items-center gap-1.5 rounded-full border border-white/25 bg-white/15 px-2.5 py-1 text-[11px] backdrop-blur-sm">
               <Wifi size={12} className="text-white" />
-              Perlu jaringan internal / VPN
+              Perlu Jaringan Internal / VPN
             </span>
           </div>
         </div>
