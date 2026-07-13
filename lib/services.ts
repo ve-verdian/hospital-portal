@@ -32,6 +32,7 @@ import {
   Server,
   Activity,
   DoorOpen,
+  Book,
 } from 'lucide-react';
 
 export type ServiceStatus = 'online' | 'maintenance' | 'offline';
@@ -72,6 +73,14 @@ export const categories: ServiceCategory[] = [
         url: 'http://192.168.12.6:8080',
         host: 'http://seafile.lan',
         icon: HardDrive,
+        status: 'online',
+      },
+      {
+        name: 'Sidokar',
+        description: 'Sistem Informasi Dokumen Akreditasi KARS',
+        url: 'http://192.168.105.8',
+        host: 'http://sidokar.lan',
+        icon: Book,
         status: 'online',
       },
     ],
