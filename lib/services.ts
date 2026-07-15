@@ -68,14 +68,6 @@ export const categories: ServiceCategory[] = [
         status: 'online',
       },
       {
-        name: 'Seafile',
-        description: 'Sinkronisasi File Tim & Versi Dokumen',
-        url: 'http://192.168.12.6:8080',
-        host: 'http://seafile.lan',
-        icon: HardDrive,
-        status: 'online',
-      },
-      {
         name: 'Sidokar',
         description: 'Sistem Informasi Dokumen Akreditasi KARS',
         url: 'http://192.168.105.8',
