@@ -62,7 +62,7 @@ export const categories: ServiceCategory[] = [
       {
         name: 'Nextcloud',
         description: 'Penyimpanan & Berbagi Dokumen Antar Unit',
-        url: 'http://192.168.105.9:8081',
+        url: 'https://nextcloud.brawijayahospitaltangerang.com',
         host: 'http://nextcloud.lan',
         icon: Cloud,
         status: 'online',
