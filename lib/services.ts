@@ -2,23 +2,23 @@
 // DAFTAR LAYANAN INTERNAL — edit file ini untuk menambah/mengubah service.
 // =============================================================================
 // PENTING (keamanan):
-//   Hostname/IP di bawah ini hanyalah CONTOH placeholder (pola *.rs.lan).
-//   Ganti dengan hostname/IP internal Anda yang sebenarnya.
-//   Karena repo ini kemungkinan akan di-deploy ke Vercel/GitHub Pages
+//   File ini sekarang berisi hostname/IP internal RS Brawijaya Tangerang yang
+//   sebenarnya. Karena repo ini kemungkinan di-deploy ke Vercel/GitHub Pages
 //   (bisa diakses publik di internet), pertimbangkan:
 //     1. Jadikan repository GitHub PRIVATE, atau
 //     2. Gunakan Vercel Deployment Protection / Password Protection, atau
-//     3. Taruh portal ini juga di belakang Authelia (SSO) seperti service lain, atau
-//     4. Hindari menaruh IP mentah di sini — pakai hostname internal (*.rs.lan)
-//        yang hanya resolve lewat DNS internal/VPN, bukan IP publik yang bocor topologi.
-//   Portal ini hanya berisi TAUTAN, bukan data pasien — tapi hostname/topologi
-//   jaringan tetap termasuk informasi yang sebaiknya tidak diekspos bebas.
+//     3. Taruh portal ini juga di belakang Authelia (SSO) seperti service lain.
+//   Portal ini hanya berisi TAUTAN, bukan data pasien — tapi hostname/IP/topologi
+//   jaringan tetap termasuk informasi yang sebaiknya tidak diekspos bebas ke publik.
 // =============================================================================
+//
+// Setiap kategori punya warna aksen sendiri (field `color`), diambil dari
+// gradasi antara pink (#B93074) dan ungu (#6A3FA0) brand RS Brawijaya —
+// supaya tiap kategori mudah dibedakan sekilas, tapi tetap satu keluarga warna.
 
 import type { LucideIcon } from 'lucide-react';
 import {
   Cloud,
-  HardDrive,
   Ticket,
   LifeBuoy,
   ScanLine,
@@ -49,7 +49,8 @@ export interface ServiceItem {
 export interface ServiceCategory {
   id: string;
   label: string;
-  accent: 'pink' | 'purple';
+  /** Warna aksen kategori (hex), dari gradasi pink -> ungu brand */
+  color: string;
   items: ServiceItem[];
 }
 
@@ -57,7 +58,7 @@ export const categories: ServiceCategory[] = [
   {
     id: 'file-sharing',
     label: 'File Sharing',
-    accent: 'pink',
+    color: '#B93074',
     items: [
       {
         name: 'Nextcloud',
@@ -80,7 +81,7 @@ export const categories: ServiceCategory[] = [
   {
     id: 'it-service',
     label: 'IT Service',
-    accent: 'purple',
+    color: '#A9337D',
     items: [
       {
         name: 'GLPI',
@@ -103,7 +104,7 @@ export const categories: ServiceCategory[] = [
   {
     id: 'hospital',
     label: 'Hospital',
-    accent: 'pink',
+    color: '#993686',
     items: [
       {
         name: 'HIS',
@@ -134,7 +135,7 @@ export const categories: ServiceCategory[] = [
   {
     id: 'monitoring',
     label: 'Monitoring',
-    accent: 'purple',
+    color: '#8A398E',
     items: [
       {
         name: 'Zabbix',
@@ -189,7 +190,7 @@ export const categories: ServiceCategory[] = [
   {
     id: 'administrator',
     label: 'Administrator',
-    accent: 'pink',
+    color: '#7A3C97',
     items: [
       {
         name: 'Traefik',
@@ -228,7 +229,7 @@ export const categories: ServiceCategory[] = [
   {
     id: 'proxmox',
     label: 'Proxmox VE',
-    accent: 'pink',
+    color: '#6A3FA0',
     items: [
       {
         name: 'SRV-PVE',
