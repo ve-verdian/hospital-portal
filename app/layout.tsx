@@ -4,7 +4,7 @@ import './globals.css';
 // Ganti dengan domain final kalau nanti pindah dari *.vercel.app ke domain lain —
 // metadataBase WAJIB URL absolut supaya og:image bisa di-fetch oleh
 // WhatsApp/Telegram/dll (mereka tidak resolve path relatif).
-const siteUrl = 'https://portal-bht.vercel.app';
+const siteUrl = 'https://portal.brawijayahospitaltangerang.com';
 const title = 'Brawijaya Hospital Tangerang — Portal Layanan Internal';
 const description =
   'Direktori pusat untuk mengakses layanan internal Brawijaya Hospital Tangerang: File Sharing, IT Service, Sistem Rumah Sakit';
