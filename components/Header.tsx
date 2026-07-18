@@ -50,7 +50,7 @@ export default function Header() {
                 Brawijaya Hospital Tangerang 
               </h1>
               <p className="mt-1 text-sm text-white/85">
-                Portal Layanan Internal — akses cepat tanpa perlu hafal alamat IP
+                Portal Layanan Internal
               </p>
             </div>
           </div>
