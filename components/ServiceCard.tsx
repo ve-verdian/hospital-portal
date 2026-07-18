@@ -4,13 +4,12 @@ import { ArrowUpRight } from 'lucide-react';
 
 export default function ServiceCard({
   item,
-  accent,
+  accentColor,
 }: {
   item: ServiceItem;
-  accent: 'pink' | 'purple';
+  accentColor: string;
 }) {
   const Icon = item.icon;
-  const accentColor = accent === 'pink' ? '#B93074' : '#6A3FA0';
 
   return (
     <a
