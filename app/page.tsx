@@ -37,13 +37,11 @@ export default function Home() {
       <Header />
 
       <div className="mx-auto max-w-6xl px-5 pt-8 sm:px-8">
-        <div className="flex flex-col gap-5">
-          <div className="w-full sm:max-w-md">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-6">
+          <div className="w-full sm:w-auto sm:max-w-xs sm:flex-shrink-0">
             <SearchBar value={query} onChange={setQuery} />
           </div>
-          <div className="border-t border-line pt-5">
-            <CategoryNav categories={allCategories} />
-          </div>
+          <CategoryNav categories={allCategories} />
         </div>
       </div>
 
