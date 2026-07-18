@@ -7,7 +7,7 @@ import './globals.css';
 const siteUrl = 'https://portal-bht.vercel.app';
 const title = 'Brawijaya Hospital Tangerang — Portal Layanan Internal';
 const description =
-  'Direktori pusat untuk mengakses layanan internal Brawijaya Hospital Tangerang: file sharing, IT service, sistem rumah sakit, monitoring, dan administrator.';
+  'Direktori pusat untuk mengakses layanan internal Brawijaya Hospital Tangerang: File Sharing, IT Service, Sistem Rumah Sakit';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
