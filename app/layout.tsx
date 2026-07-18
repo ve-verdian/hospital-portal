@@ -1,14 +1,13 @@
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from 'next';
 import './globals.css';
 
-// Ganti dengan domain final kalau nanti pindah dari *.vercel.app ke domain lain —
-// metadataBase WAJIB URL absolut supaya og:image bisa di-fetch oleh
-// WhatsApp/Telegram/dll (mereka tidak resolve path relatif).
+// Domain final portal ini. metadataBase WAJIB URL absolut supaya og:image
+// bisa di-fetch oleh WhatsApp/Telegram/dll (mereka tidak resolve path relatif).
+// Kalau nanti pindah domain lagi, WAJIB update baris ini juga.
 const siteUrl = 'https://portal.brawijayahospitaltangerang.com';
 const title = 'Brawijaya Hospital Tangerang — Portal Layanan Internal';
 const description =
-  'Direktori pusat untuk mengakses layanan internal Brawijaya Hospital Tangerang: File Sharing, IT Service, Sistem Rumah Sakit';
+  'Direktori pusat untuk mengakses layanan internal Brawijaya Hospital Tangerang: File Sharing, IT Service, dan Sistem Rumah Sakit.';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
