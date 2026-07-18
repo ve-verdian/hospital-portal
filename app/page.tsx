@@ -23,6 +23,7 @@ export default function Home() {
             item.name.toLowerCase().includes(q) ||
             item.description.toLowerCase().includes(q) ||
             item.host.toLowerCase().includes(q) ||
+            item.url.toLowerCase().includes(q) ||
             cat.label.toLowerCase().includes(q)
         ),
       }))
